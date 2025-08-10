@@ -50,6 +50,7 @@ function AddCandidate() {
                         className="form-control"
                         value={form.name}
                         onChange={(e) => setForm({ ...form, name: e.target.value })}
+                        required
                     />
                 </div>
                 <div className="mb-2">
@@ -59,6 +60,7 @@ function AddCandidate() {
                         className="form-control"
                         value={form.mobile}
                         onChange={(e) => setForm({ ...form, mobile: e.target.value })}
+                        required
                     />
                 </div>
                 <div className="mb-2">
@@ -68,6 +70,7 @@ function AddCandidate() {
                         className="form-control"
                         value={form.city}
                         onChange={(e) => setForm({ ...form, city: e.target.value })}
+                        required
                     />
                 </div>
                 <div className="mb-2">
@@ -77,6 +80,7 @@ function AddCandidate() {
                         className="form-control"
                         value={form.position}
                         onChange={(e) => setForm({ ...form, position: e.target.value })}
+                        required
                     />
                 </div>
                 <div className="mb-2">
@@ -86,6 +90,7 @@ function AddCandidate() {
                         className="form-control"
                         value={form.experience}
                         onChange={(e) => setForm({ ...form, experience: e.target.value })}
+                        required
                     />
                 </div>
                 <div className="mb-2">
@@ -95,6 +100,7 @@ function AddCandidate() {
                         className="form-control"
                         value={form.current_ctc}
                         onChange={(e) => setForm({ ...form, current_ctc: e.target.value })}
+                        required
                     />
                 </div>
                 <div className="mb-2">
@@ -104,6 +110,7 @@ function AddCandidate() {
                         className="form-control"
                         value={form.expected_ctc}
                         onChange={(e) => setForm({ ...form, expected_ctc: e.target.value })}
+                        required
                     />
                 </div>
                 <div className="mb-2">
@@ -113,6 +120,7 @@ function AddCandidate() {
                         className="form-control"
                         value={form.skills}
                         onChange={(e) => setForm({ ...form, skills: e.target.value })}
+                        required
                     />
                 </div>
                 {/* <div className="mb-2">
@@ -131,6 +139,7 @@ function AddCandidate() {
                         className="form-control"
                         value={form.date}
                         onChange={(e) => setForm({ ...form, date: e.target.value })}
+                        required
                     />
                 </div>
 

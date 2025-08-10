@@ -119,6 +119,7 @@ function ScheduleInterview() {
                         className="form-control"
                         value={form.interviewer}
                         onChange={(e) => setForm({ ...form, interviewer: e.target.value })}
+                        required
                     />
                 </div>
                 <div className="mb-2">
@@ -128,6 +129,7 @@ function ScheduleInterview() {
                         className="form-control"
                         value={form.status}
                         onChange={(e) => setForm({ ...form, status: e.target.value })}
+                        required
                     />
                 </div>
                 <div className="mb-2">
@@ -137,6 +139,7 @@ function ScheduleInterview() {
                         className="form-control"
                         value={form.remarks}
                         onChange={(e) => setForm({ ...form, remarks: e.target.value })}
+                        required
                     />
                 </div>
                 <div className="mb-2">
@@ -146,6 +149,7 @@ function ScheduleInterview() {
                         className="form-control"
                         value={form.date}
                         onChange={(e) => setForm({ ...form, date: e.target.value })}
+                        required
                     />
                 </div>
                 <br />
