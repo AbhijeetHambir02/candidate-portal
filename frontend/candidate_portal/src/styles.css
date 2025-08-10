@@ -1,0 +1,31 @@
+body {
+    background-color: #000000d7;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.transparent-bg {
+    background-color: rgba(0, 0, 0, 0.717);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.table-dark th,
+.table-dark td {
+    color: white !important;
+}
+
+.btn {
+    /* border-radius: 10px; */
+    width: 100%;
+}
+
+.form-control {
+    background-color: transparent !important;
+    border: 1px solid #ccc;
+    color: white !important;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
